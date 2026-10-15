@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- ============================================================
+     EDIT: META  — page title, description, social preview text
+     ============================================================ -->
+<title>Ajimshad S. — Data Analyst</title>
+<meta name="description" content="Portfolio of Ajimshad S., an Electronics &amp; Communication graduate working in data analytics with Python, SQL, Power BI and embedded systems." />
+<meta name="author" content="Ajimshad S." />
+<meta property="og:title" content="Ajimshad S. — Data Analyst" />
+<meta property="og:description" content="Data analytics portfolio — Python, SQL, Power BI, and embedded systems projects." />
+<meta property="og:type" content="website" />
+<meta name="theme-color" content="#e9e4d9" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+
+<!-- If JavaScript is off, show everything immediately. -->
+<noscript>
+  <style>
+    .reveal { opacity: 1 !important; transform: none !important; }
+    .mega .ln > span { transform: none !important; }
+    .sheet__head::before { transform: none !important; }
+    .hero__canvas { display: none; }
+  </style>
+</noscript>
+</head>
+
+<body>
+<div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ============================================================
+     EDIT: TOP BAR — name, role, menu labels
+     ============================================================ -->
+<header class="topbar" id="nav">
+  <div class="wrap topbar__inner">
+    <a class="brand" href="#top">
+      <span class="brand__name">Ajimshad&nbsp;S.</span>
+      <span class="brand__role">Data Analyst</span>
+    </a>
+
+    <nav class="menu" id="navLinks" aria-label="Section navigation">
+      <a href="#about"><i>01</i>Profile</a>
+      <a href="#skills"><i>02</i>Capabilities</a>
+      <a href="#experience"><i>03</i>Experience</a>
+      <a href="#work"><i>04</i>Projects</a>
+      <a href="#education"><i>05</i>Education</a>
+      <a href="#contact"><i>06</i>Contact</a>
+    </nav>
+
+    <div class="topbar__end">
+      <button class="toggle" id="themeToggle" type="button" aria-label="Switch colour theme" title="Switch theme">
+        <svg class="ico ico--sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.4M12 19v2.4M4.3 4.3l1.7 1.7M18 18l1.7 1.7M2.6 12H5M19 12h2.4M4.3 19.7L6 18M18 6l1.7-1.7"/></svg>
+        <svg class="ico ico--moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 13.6A8 8 0 1 1 10.4 4a6.6 6.6 0 0 0 9.6 9.6Z"/></svg>
+      </button>
+      <button class="burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============================================================
+     EDIT: HERO — name, role line, intro paragraph, buttons
+     ============================================================ -->
+<section class="hero" id="top">
+  <canvas class="hero__canvas" id="particles" aria-hidden="true"></canvas>
+
+  <div class="wrap hero__inner">
+    <p class="rule-label reveal"><span>Kollam, Kerala</span><span>Available for hire</span><span>2026</span></p>
+
+    <h1 class="mega reveal" data-delay="1">
+      <span class="ln"><span>Ajimshad</span></span>
+      <span class="ln"><span>S<em>— Data Analyst</em></span></span>
+    </h1>
+
+    <div class="hero__cols">
+      <div class="hero__lead reveal" data-delay="2">
+        <p class="lede">
+          I turn raw transactional data into decisions — cleaning it in Python and SQL,
+          modelling it with DAX, and presenting it in dashboards people actually read.
+          Trained in embedded systems, now building a career in analytics.
+        </p>
+
+        <div class="cta">
+          <a class="btn btn--fill" href="#work">
+            Selected work
+            <svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+          </a>
+          <!-- EDIT: RESUME FILE — replace assets/files/Ajimshad-S-Resume.pdf -->
+          <a class="btn btn--out" href="assets/files/Ajimshad-S-Resume.pdf" download>
+            Résumé (PDF)
+            <svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="M12 4v12M7 11l5 5 5-5M5 20h14"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- section index — doubles as a contents list -->
+      <ol class="index reveal" data-delay="3">
+        <li><a href="#about"><i>01</i><span>Profile</span><b>&rarr;</b></a></li>
+        <li><a href="#skills"><i>02</i><span>Capabilities</span><b>&rarr;</b></a></li>
+        <li><a href="#experience"><i>03</i><span>Experience</span><b>&rarr;</b></a></li>
+        <li><a href="#work"><i>04</i><span>Projects</span><b>&rarr;</b></a></li>
+        <li><a href="#education"><i>05</i><span>Education</span><b>&rarr;</b></a></li>
+        <li><a href="#contact"><i>06</i><span>Contact</span><b>&rarr;</b></a></li>
+      </ol>
+    </div>
+  </div>
+
+  <!-- EDIT: FIGURES — change BOTH data-count and the text in the span
+       (the text is what shows if JavaScript is unavailable) -->
+  <div class="wrap">
+    <dl class="figures reveal" data-delay="4">
+      <div><dt>CGPA</dt><dd><span data-count="7.4" data-decimals="1">7.4</span></dd></div>
+      <div><dt>Internships</dt><dd><span data-count="2">2</span></dd></div>
+      <div><dt>Major projects</dt><dd><span data-count="2">2</span></dd></div>
+      <div><dt>Languages</dt><dd><span data-count="3">3</span></dd></div>
+      <div><dt>Diploma</dt><dd class="figures__word">ECE</dd></div>
+    </dl>
+  </div>
+</section>
+
+<!-- ============================================================
+     EDIT: TICKER — the moving keyword band
+     ============================================================ -->
+<div class="band" aria-hidden="true">
+  <div class="band__track">
+    <span>Python</span><i>+</i><span>SQL</span><i>+</i><span>MySQL</span><i>+</i><span>Pandas</span><i>+</i>
+    <span>NumPy</span><i>+</i><span>Power BI</span><i>+</i><span>DAX</span><i>+</i><span>Matplotlib</span><i>+</i>
+    <span>Excel</span><i>+</i><span>Arduino</span><i>+</i><span>IoT</span><i>+</i><span>Embedded Systems</span><i>+</i>
+    <span>Python</span><i>+</i><span>SQL</span><i>+</i><span>MySQL</span><i>+</i><span>Pandas</span><i>+</i>
+    <span>NumPy</span><i>+</i><span>Power BI</span><i>+</i><span>DAX</span><i>+</i><span>Matplotlib</span><i>+</i>
+    <span>Excel</span><i>+</i><span>Arduino</span><i>+</i><span>IoT</span><i>+</i><span>Embedded Systems</span><i>+</i>
+  </div>
+</div>
+
+<!-- ============================================================
+     EDIT: PROFILE / ABOUT
+     ============================================================ -->
+<section class="sheet" id="about">
+  <div class="wrap">
+    <header class="sheet__head reveal">
+      <span class="sheet__num">01</span>
+      <h2>Profile</h2>
+      <span class="sheet__meta">Who I am</span>
+    </header>
+
+    <div class="about">
+      <p class="about__lead reveal" data-delay="1">
+        An engineer&rsquo;s habits, applied to data.
+      </p>
+
+      <div class="about__body reveal" data-delay="2">
+        <p>
+          I&rsquo;m an Electronics and Communication Engineering diploma graduate from the
+          Board of Technical Education, Kerala, now specialising in data analytics through
+          a Professional Diploma at IPCS Global, Kollam.
+        </p>
+        <p>
+          Two internships shaped how I work: embedded programming at Sinrorobotics taught
+          me that a system is only as good as its weakest connection, and machine learning
+          at Keltron taught me that a model is only as good as the data prepared for it.
+          Both show up in how carefully I clean, join and validate a dataset before a
+          single chart is drawn.
+        </p>
+        <p>
+          I&rsquo;m looking for an entry-level Data Analyst role where analytical rigour,
+          SQL, and clear visual storytelling matter.
+        </p>
+      </div>
+
+      <dl class="facts reveal" data-delay="3">
+        <div><dt>Based in</dt><dd>Chandanathope, Kollam, Kerala</dd></div>
+        <div><dt>Focus</dt><dd>Analytics, BI dashboards, reporting</dd></div>
+        <div><dt>Currently</dt><dd>Professional Diploma in Data Analytics</dd></div>
+        <div><dt>Availability</dt><dd>Open to full-time roles</dd></div>
+        <div><dt>Languages</dt><dd>English, Malayalam, Hindi</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     EDIT: CAPABILITIES — duplicate a <li class="row"> to add one
+     ============================================================ -->
+<section class="sheet" id="skills">
+  <div class="wrap">
+    <header class="sheet__head reveal">
+      <span class="sheet__num">02</span>
+      <h2>Capabilities</h2>
+      <span class="sheet__meta">What I work with</span>
+    </header>
+
+    <ul class="rows">
+      <li class="row reveal">
+        <span class="row__num">01</span>
+        <div class="row__main">
+          <h3>Programming</h3>
+          <p>Scripting data pipelines, cleaning and transformation logic.</p>
+        </div>
+        <p class="row__tools">Python / Pandas / NumPy</p>
+      </li>
+
+      <li class="row reveal" data-delay="1">
+        <span class="row__num">02</span>
+        <div class="row__main">
+          <h3>Databases</h3>
+          <p>Joins, subqueries, aggregations, CTEs and window functions.</p>
+        </div>
+        <p class="row__tools">SQL / MySQL</p>
+      </li>
+
+      <li class="row reveal" data-delay="2">
+        <span class="row__num">03</span>
+        <div class="row__main">
+          <h3>Visualisation &amp; BI</h3>
+          <p>Dashboards, KPI design and measures that answer business questions.</p>
+        </div>
+        <p class="row__tools">Power BI / DAX / Matplotlib / Excel</p>
+      </li>
+
+      <li class="row reveal" data-delay="3">
+        <span class="row__num">04</span>
+        <div class="row__main">
+          <h3>Hardware &amp; Embedded</h3>
+          <p>Microcontrollers, sensors and hardware/software integration.</p>
+        </div>
+        <p class="row__tools">Arduino / IoT / Embedded Systems</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================================================
+     EDIT: EXPERIENCE — duplicate an <li class="entry"> to add one
+     ============================================================ -->
+<section class="sheet" id="experience">
+  <div class="wrap">
+    <header class="sheet__head reveal">
+      <span class="sheet__num">03</span>
+      <h2>Experience</h2>
+      <span class="sheet__meta">Where I&rsquo;ve trained</span>
+    </header>
+
+    <ol class="entries">
+      <li class="entry reveal">
+        <div class="entry__side">
+          <span class="entry__num">01</span>
+          <span class="pill">Internship</span>
+          <span class="entry__place">Palarivattom, Kochi</span>
+        </div>
+        <div class="entry__main">
+          <h3>Embedded Programming in IoT</h3>
+          <p class="entry__org">Sinrorobotics</p>
+          <p>Practical exposure to embedded programming and IoT concepts: microcontrollers,
+             sensors, electronic components, and hardware/software integration.</p>
+          <p class="entry__tools">Embedded programming / Microcontrollers / Sensors / IoT</p>
+        </div>
+      </li>
+
+      <li class="entry reveal" data-delay="1">
+        <div class="entry__side">
+          <span class="entry__num">02</span>
+          <span class="pill">Internship</span>
+          <span class="entry__place">Kaloor, Kochi</span>
+        </div>
+        <div class="entry__main">
+          <h3>Machine Learning</h3>
+          <p class="entry__org">Keltron</p>
+          <p>Hands-on with machine learning workflows: Python-based data processing,
+             data preparation, model development and analysis.</p>
+          <p class="entry__tools">Python / Data preparation / Model development</p>
+        </div>
+      </li>
+
+      <li class="entry reveal" data-delay="2">
+        <div class="entry__side">
+          <span class="entry__num">03</span>
+          <span class="pill pill--now">Training · now</span>
+          <span class="entry__place">Kollam</span>
+        </div>
+        <div class="entry__main">
+          <h3>Professional Diploma in Data Analytics</h3>
+          <p class="entry__org">IPCS Global</p>
+          <p>Structured training across Python, SQL, Excel, Power BI and DAX, with applied
+             analytics case work.</p>
+          <p class="entry__tools">SQL / Power BI / DAX / Excel</p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============================================================
+     EDIT: PROJECTS — duplicate an <article class="work"> to add one
+     ============================================================ -->
+<section class="sheet" id="work">
+  <div class="wrap">
+    <header class="sheet__head reveal">
+      <span class="sheet__num">04</span>
+      <h2>Projects</h2>
+      <span class="sheet__meta">Selected work</span>
+    </header>
+
+    <div class="works">
+
+      <article class="work reveal">
+        <div class="work__side">
+          <span class="work__num">01</span>
+          <h3>E-Commerce Sales &amp; Customer Analytics</h3>
+          <p class="work__kind">Analysis &amp; reporting</p>
+          <p class="work__tools">Python / Pandas / NumPy / SQL / MySQL / Excel / Power BI / DAX / Matplotlib</p>
+
+          <!-- decorative figure -->
+          <svg class="fig" viewBox="0 0 220 90" aria-hidden="true">
+            <g class="fig__axis"><line x1="0" y1="89" x2="220" y2="89"/></g>
+            <g class="fig__bars">
+              <rect x="4"   y="46" width="26" height="43" style="--d:0"/>
+              <rect x="40"  y="30" width="26" height="59" style="--d:1"/>
+              <rect x="76"  y="54" width="26" height="35" style="--d:2"/>
+              <rect x="112" y="18" width="26" height="71" style="--d:3"/>
+              <rect x="148" y="38" width="26" height="51" style="--d:4"/>
+              <rect x="184" y="6"  width="26" height="83" style="--d:5"/>
+            </g>
+          </svg>
+        </div>
+
+        <ul class="points">
+          <li>Analysed e-commerce transaction data to identify sales trends, customer behaviour, product performance and regional profitability.</li>
+          <li>Cleaned and transformed datasets with Python, Pandas, NumPy and Excel; used SQL joins, subqueries, aggregations, CTEs and window functions.</li>
+          <li>Built interactive Power BI dashboards covering revenue, profit, orders, average order value, customer retention and growth KPIs.</li>
+          <li>Performed customer segmentation and cohort analysis; authored DAX measures and visuals to support business insights.</li>
+        </ul>
+      </article>
+
+      <article class="work reveal" data-delay="1">
+        <div class="work__side">
+          <span class="work__num">02</span>
+          <h3>Arduino-Based Laser Engraving Machine</h3>
+          <p class="work__kind">Hardware &amp; motion control</p>
+          <p class="work__tools">Arduino / CNC Shield / A4988 / Stepper motors</p>
+
+          <!-- decorative figure -->
+          <svg class="fig fig--alt" viewBox="0 0 220 90" aria-hidden="true">
+            <g class="fig__grid">
+              <path d="M44 0V90M88 0V90M132 0V90M176 0V90M0 22H220M0 45H220M0 68H220"/>
+            </g>
+            <path class="fig__path" d="M22,72 L22,28 L66,28 L66,62 L132,62 L132,20 L190,20 L190,72"/>
+            <circle class="fig__dot" cx="190" cy="72" r="4"/>
+          </svg>
+        </div>
+
+        <ul class="points">
+          <li>Developed a laser engraving and cutting machine for compatible materials using Arduino, a 1W 445nm laser, a CNC shield, A4988 stepper drivers and stepper motors.</li>
+          <li>Integrated capacitors, resistors, connectors and jumper wiring across the build.</li>
+          <li>Worked on motion control and laser positioning to achieve accurate engraving and cutting.</li>
+        </ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     EDIT: EDUCATION — add a <tr> to add a qualification
+     ============================================================ -->
+<section class="sheet" id="education">
+  <div class="wrap">
+    <header class="sheet__head reveal">
+      <span class="sheet__num">05</span>
+      <h2>Education</h2>
+      <span class="sheet__meta">Academic record</span>
+    </header>
+
+    <div class="tablewrap reveal" data-delay="1">
+      <table class="table">
+        <thead>
+          <tr><th scope="col">Year</th><th scope="col">Qualification</th><th scope="col">Board / Institution</th><th scope="col">Result</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="Year">2022—2025</td>
+            <td data-label="Qualification"><strong>Diploma in Electronics &amp; Communication Engineering</strong></td>
+            <td data-label="Institution">Board of Technical Education, Kerala</td>
+            <td class="num" data-label="Result">CGPA 7.4</td>
+          </tr>
+          <tr>
+            <td data-label="Year">2020—2022</td>
+            <td data-label="Qualification"><strong>Plus Two — Computer Commerce</strong></td>
+            <td data-label="Institution">Kerala State Board of Higher Secondary Education</td>
+            <td class="num" data-label="Result">—</td>
+          </tr>
+          <tr>
+            <td data-label="Year">2020</td>
+            <td data-label="Qualification"><strong>SSLC</strong></td>
+            <td data-label="Institution">Kerala State Board of Secondary Education</td>
+            <td class="num" data-label="Result">—</td>
+          </tr>
+          <tr>
+            <td data-label="Year">Ongoing</td>
+            <td data-label="Qualification"><strong>Professional Diploma in Data Analytics</strong></td>
+            <td data-label="Institution">IPCS Global, Kollam</td>
+            <td class="num" data-label="Result">In progress</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     EDIT: CONTACT — email, phone, location, links
+     ============================================================ -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <header class="sheet__head sheet__head--invert reveal">
+      <span class="sheet__num">06</span>
+      <h2>Contact</h2>
+      <span class="sheet__meta">Get in touch</span>
+    </header>
+
+    <p class="contact__line reveal" data-delay="1">
+      Open to entry-level Data Analyst and Data Analytics positions.
+      The fastest way to reach me is email.
+    </p>
+
+    <div class="mailrow reveal" data-delay="2">
+      <a class="mail" href="mailto:ajimshadakku2003@gmail.com">
+        <span>ajimshadakku2003@gmail.com</span>
+        <svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+      </a>
+      <!-- EDIT: the address to copy must match the mailto: link above -->
+      <button class="copy" id="copyMail" type="button" data-copy="ajimshadakku2003@gmail.com">
+        <svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="1"/><path d="M5 15V5a1 1 0 0 1 1-1h9"/></svg>
+        <span class="copy__label">Copy address</span>
+      </button>
+    </div>
+    <p class="copy__status" id="copyStatus" role="status" aria-live="polite"></p>
+
+    <dl class="contact__grid reveal" data-delay="3">
+      <div><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/ajimshad-s" target="_blank" rel="noopener">/in/ajimshad-s</a></dd></div>
+      <div><dt>Phone</dt><dd><a href="tel:+916238404828">+91 62384 04828</a></dd></div>
+      <div><dt>Location</dt><dd><a href="https://maps.google.com/?q=Chandanathope,Kollam,Kerala" target="_blank" rel="noopener">Chandanathope, Kollam</a></dd></div>
+      <div><dt>Résumé</dt><dd><a href="assets/files/Ajimshad-S-Resume.pdf" download>Download PDF</a></dd></div>
+    </dl>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__inner">
+    <p>&copy; <span id="year">2026</span> Ajimshad S.</p>
+    <a class="foot__top" href="#top">Back to top <svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="M12 19V6M6 12l6-6 6 6"/></svg></a>
+  </div>
+</footer>
+
+<!-- fixed status bar (desktop) -->
+<aside class="statusbar">
+  <span class="statusbar__dot"></span>
+  <span class="statusbar__now" id="statusNow">Open to work</span>
+  <span class="statusbar__sep">/</span>
+  <span class="statusbar__loc">Kollam, Kerala</span>
+  <span class="statusbar__pct" id="statusPct">0%</span>
+  <a class="statusbar__mail" href="mailto:ajimshadakku2003@gmail.com">ajimshadakku2003@gmail.com</a>
+  <button class="statusbar__top" id="statusTop" type="button" aria-label="Back to top">Top &uarr;</button>
+</aside>
+
+<script src="assets/js/particles.js" defer></script>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
